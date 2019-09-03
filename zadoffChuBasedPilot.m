@@ -1,4 +1,4 @@
-function pilot = zadoffChuBasedPilot(K,Np,N)
+function pilot = zadoffChuBasedPilot(Np,K,N)
 % K, number of users in one cell
 %K = 8;
 %Np = 2*K;% Chu sequence length should be no less than the number of users K

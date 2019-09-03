@@ -26,7 +26,7 @@ v = -N_cp:N_dft-1;
 
 
 %% generate s1[u]:sK[u]
-s = zadoffChuBasedPilot(K,pilotLen,getPrime(pilotLen));
+s = zadoffChuBasedPilot(pilotLen,K,getPrime(pilotLen));
 
 %% IDFT
 
